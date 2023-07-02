@@ -172,7 +172,7 @@ const Edit = () => {
                     className="hover:bg-gray-100 focus-within:bg-gray-100"
                   >
                     <td className="border-t">
-                      <InertiaLink
+                      <Link
                         href={route('contacts.edit', id)}
                         className="flex items-center px-6 py-4 focus:text-indigo focus:outline-none"
                       >
@@ -183,28 +183,28 @@ const Edit = () => {
                             className="flex-shrink-0 w-3 h-3 ml-2 text-gray-400 fill-current"
                           />
                         )}
-                      </InertiaLink>
+                      </Link>
                     </td>
                     <td className="border-t">
-                      <InertiaLink
+                      <Link
                         tabIndex="-1"
                         href={route('contacts.edit', id)}
                         className="flex items-center px-6 py-4 focus:text-indigo focus:outline-none"
                       >
                         {city}
-                      </InertiaLink>
+                      </Link>
                     </td>
                     <td className="border-t">
-                      <InertiaLink
+                      <Link
                         tabIndex="-1"
                         href={route('contacts.edit', id)}
                         className="flex items-center px-6 py-4 focus:text-indigo focus:outline-none"
                       >
                         {phone}
-                      </InertiaLink>
+                      </Link>
                     </td>
                     <td className="w-px border-t">
-                      <InertiaLink
+                      <Link
                         tabIndex="-1"
                         href={route('contacts.edit', id)}
                         className="flex items-center px-4"
@@ -213,7 +213,7 @@ const Edit = () => {
                           name="cheveron-right"
                           className="block w-6 h-6 text-gray-400 fill-current"
                         />
-                      </InertiaLink>
+                      </Link>
                     </td>
                   </tr>
                 );
